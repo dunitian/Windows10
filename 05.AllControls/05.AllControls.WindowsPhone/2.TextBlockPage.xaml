@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="_05.AllControls._TextBlockPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_05.AllControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel>
+        <TextBlock FontSize="19">默认不换行：</TextBlock>
+        <TextBlock FontSize="19" Text="Intelligence without ambition is a bird without wings."></TextBlock>
+        <TextBlock FontSize="19" Text="Intelligence without ambition is a bird without wings." TextWrapping="NoWrap"></TextBlock>
+        <TextBlock FontSize="19" Margin="0,20,0,5">★Wrap★：</TextBlock>
+        <TextBlock FontSize="19" Text="Intelligence without ambition is a bird without wings." TextWrapping="Wrap"></TextBlock>
+        <TextBlock FontSize="19" Margin="0,20,0,5">★WrapWholeWords★：</TextBlock>
+        <TextBlock FontSize="19" Text="Intelligence without ambition is a bird without wings." TextWrapping="WrapWholeWords"></TextBlock>
+
+        <TextBlock FontSize="19" Margin="0,20,0,5" Foreground="Red">当一个单词很长的时候他们的区分就来了：</TextBlock>
+        <TextBlock FontSize="19" Margin="0,5,0,5">Wrap：</TextBlock>
+        <TextBlock FontSize="19" Text="Intelligencewithoutambitionisabirdwithoutwingsingingles" TextWrapping="Wrap"></TextBlock>
+        <TextBlock FontSize="19" Margin="0,20,0,5">WrapWholeWords：</TextBlock>
+        <TextBlock FontSize="19" Text="Intelligencewithoutambitionisabirdwithoutwingsingingles" TextWrapping="WrapWholeWords"></TextBlock>
+
+        <TextBlock Margin="0,5,0,0" FontSize="17" TextWrapping="Wrap">
+            <TextBlock.Inlines>
+                <Run Foreground="BlueViolet" FontSize="30">羊的故事</Run>
+                <Run>吉祥的羊年欢蹦跳跃地向我们走来，</Run>
+                <Run FontWeight="Bold" Foreground="Yellow">咩咩</Run>
+                <Run>地叫着向我们走来。“羊”字代表吉祥。这在中国人的祖先造字时就把“羊”和“祥”紧紧地连在一起了。</Run>
+                <Span>羊的形象历来是可爱的、温顺的。羊是人类的忠实朋友，是人类的亲密伙伴。在世界文明史中，在中国五千年的灿烂文化中，在人们的日常生活中，有关羊的趣闻趣事不胜枚举，让我们一起来欣赏吧！这是一件赏心悦目的事呢</Span>
+            </TextBlock.Inlines>
+        </TextBlock>
+    </StackPanel>
+</Page>
+<!--默认NoWarp--> 

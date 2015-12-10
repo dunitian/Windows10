@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MT</Machine>
+    <WindowsUser>DNT</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>8e5574ad-bf87-482f-9add-9179697453c0</PackageIdentityName>
+    <IntermediateOutputPath>D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\bin\Debug\05.AllControls.WindowsPhone.exe">
+      <PackagePath>05.AllControls.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\bin\Debug\1.Layout\1.GridCalc.xbf">
+      <PackagePath>1.Layout\1.GridCalc.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\bin\Debug\1.Layout\1.GridBase.xbf">
+      <PackagePath>1.Layout\1.GridBase.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\bin\Debug\1.Layout\1.GridDefinitions.xbf">
+      <PackagePath>1.Layout\1.GridDefinitions.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\bin\Debug\1.Layout\2.StackPanel.xbf">
+      <PackagePath>1.Layout\2.StackPanel.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\bin\Debug\1.Layout\3.Canvas.xbf">
+      <PackagePath>1.Layout\3.Canvas.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\bin\Debug\1.Layout\4.VariableSizedWrapGrid.xbf">
+      <PackagePath>1.Layout\4.VariableSizedWrapGrid.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\bin\Debug\2.TextBlockPage.xbf">
+      <PackagePath>2.TextBlockPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\bin\Debug\2.Usual\1.ButtonPage.xbf">
+      <PackagePath>2.Usual\1.ButtonPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\bin\Debug\2.Usual\4.BorderPage.xbf">
+      <PackagePath>2.Usual\4.BorderPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\bin\Debug\2.Usual\4.BorderUsePage.xbf">
+      <PackagePath>2.Usual\4.BorderUsePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\bin\Debug\05.AllControls.WindowsPhone.xr.xml">
+      <PackagePath>05.AllControls.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

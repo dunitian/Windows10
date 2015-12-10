@@ -1,0 +1,1 @@
+E:\Works\WP\Win10\02.XAMLBaseDKill\02.XAMLBaseDKill.Windows\02.XAMLBaseDKill.Windows.csproj;neutral
