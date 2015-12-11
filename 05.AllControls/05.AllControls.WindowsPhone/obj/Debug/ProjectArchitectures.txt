@@ -1,1 +1,0 @@
-D:\WorkTemp\WP\Win10\05.AllControls\05.AllControls.WindowsPhone\05.AllControls.WindowsPhone.csproj;neutral

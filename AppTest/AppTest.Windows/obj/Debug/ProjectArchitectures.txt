@@ -1,1 +1,0 @@
-E:\Works\WP\Win10\AppTest\AppTest.Windows\AppTest.Windows.csproj;neutral
