@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="_05.AllControls._1.Layout._StackPanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_05.AllControls._1.Layout"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <!--子元素沿 垂直/水平（Orientation）方向排布-->
+    <Grid>
+        <!--默认情况就是沿着垂直方向-->
+        <StackPanel Orientation="Vertical">
+            <Button>溶解剂</Button>
+            <Button>溶解剂</Button>
+            <Button>溶解剂</Button>
+            <Button>溶解剂</Button>
+        </StackPanel>
+
+        <!--多出部分截断-->
+        <StackPanel Orientation="Horizontal">
+            <Button>溶解剂</Button>
+            <Button>溶解剂</Button>
+            <Button>溶解剂</Button>
+            <Button>溶解剂</Button>
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="屏幕居中"></Button>
+            <Button Content="屏幕居中"></Button>
+            <Button Content="屏幕居中"></Button>
+        </StackPanel>
+    </Grid>
+</Page>
